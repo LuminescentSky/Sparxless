@@ -34,7 +34,7 @@ _levelLoadState = 0x8007f3f4;
 _dragonState = 0x80080c30;
 
 _globalGems = 0x8007f3f0;
-_lives = 0x0x8007f3c0;
+_lives = 0x8007f3c0;
 
 StopAllSounds = 0x8005b1e8;
 UnkFunction3 = 0x8005b464;
@@ -51,9 +51,9 @@ TextBox = 0x800179f0;
 _ptrTextUnk = 0x8007bf68;
 CopyHudToShaded = 0x80017c28;
 DrawShadedMobys = 0x800217b8;
-_ptr_HudMobyData = 0x0x8007f27c;
+_ptr_HudMobyData = 0x8007f27c;
 
-StopSounds = 0x0x8005b1e8;
+StopSounds = 0x8005b1e8;
 PlaySoundEffect = 0x80059f90;
 
 _unkVar3 = 0x8007f314;
