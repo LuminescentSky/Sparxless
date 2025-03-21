@@ -5,20 +5,13 @@ PAL, exe, 0x80039084, 0x0, asm/hook.s
 PAL, header, 0x8000B0B8, 0x0, src/main.c, Header.bin
 
 PS2_NTSC, exe, 0x80033e38, 0x0, asm/hook.s
-PS2_NTSC, header, 0x8000A91C, 0x0, src/main.c, TitleScreen.bin
+PS2_NTSC, header, 0x8000A91C, 0x0, src/main.c, Header.bin
 
 PS2_PAL, exe, 0x80039084, 0x0, asm/hook.s
-PS2_PAL, header, 0x8000A91C, 0x0, src/main.c, TitleScreen.bin
+PS2_PAL, header, 0x8000A91C, 0x0, src/main.c, Header.bin
 
 J, exe, 0x80034624, 0x0, asm/hook.s
-J, exe, 0x8002d218, 0x0, asm/quitGame.s
-J, exe, 0x8001d630, 0x0, asm/dontDrawText1_j.s
-J, exe, 0x8001d6a4, 0x0, asm/dontDrawText2_j.s
-J, exe, 0x80042b64, 0x0, asm/disableChargeSound_j.s
-J, exe, 0x8006de20, 0x0, asm/overwriteRawInputs.s
-J, header, 0x8000B0B8, 0x0, src/custom_title_screen.c, TitleScreen.bin
-J, exe, 0x80030778, 0x0, src/main.c src/supercharge.c src/check_region.c, OtherStuff.bin
-J, exe, 0x8001c500, 0x0, src/gametime.c src/custom_text.c, IGT.bin
+J, header, 0x8000B0B8, 0x0, src/main.c, Header.bin
 
 PROTOTYPE, exe, 0x80034624, 0x0, asm/hook.s
 
