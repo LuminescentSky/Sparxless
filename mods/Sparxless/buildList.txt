@@ -16,27 +16,3 @@ J, header, 0x8000B0B8, 0x0, src/main.c, Header.bin
 PROTOTYPE, exe, 0x80034624, 0x0, asm/hook.s
 
 REDUX_PAL, exe, 0x80039084, 0x0, asm/hook.s
-REDUX_PAL, exe, 0x80033d7c, 0x0, asm/inventoryToPauseHook.s
-REDUX_PAL, exe, 0x80033da8, 0x0, asm/inventoryToGameplayHook.s
-REDUX_PAL, exe, 0x80032640, 0x0, asm/inventoryToCreditsHook.s
-REDUX_PAL, exe, 0x800317f4, 0x0, asm/openInventoryHook.s
-REDUX_PAL, exe, 0x8003281c, 0x0, asm/cheat.s
-REDUX_PAL, exe, 0x80038b1c, 0x0, asm/beforeInventoryUpdateHook.s
-REDUX_PAL, exe, 0x80038b04, 0x0, asm/beforePauseMenuUpdateHook.s
-REDUX_PAL, exe, 0x80033198, 0x0, asm/quitGame.s
-REDUX_PAL, exe, 0x80020ea0, 0x0, asm/menuTextHook.s
-REDUX_PAL, exe, 0x80023e6c, 0x0, asm/beforeMenuTextHook.s
-REDUX_PAL, exe, 0x8004fb30, 0x0, asm/beforeDeathHook.s
-REDUX_PAL, exe, 0x80023660, 0x0, asm/dontDrawText1_pal.s
-REDUX_PAL, exe, 0x800236d0, 0x0, asm/dontDrawText2_pal.s
-REDUX_PAL, exe, 0x8004451c, 0x0, asm/disableChargeSound_pal.s
-REDUX_PAL, exe, 0x8006e618, 0x0, asm/overwriteRawInputs.s
-REDUX_PAL, exe, 0x80033abc, 0x0, asm/exitLevelHook.s
-REDUX_PAL, exe, 0x80031660, 0x0, asm/stopSoundHook.s
-REDUX_PAL, exe, 0x800383a4, 0x0, asm/stopSoundHook2.s
-REDUX_PAL, exe, 0x80031d3c, 0x0, asm/fairyFix.s
-REDUX_PAL, header, 0x8000A91C, 0x0, src/custom_title_screen.c, TitleScreen.bin
-REDUX_PAL, exe, 0x80036558, 0x0, src/supercharge.c src/custom_text.c, OtherStuff.bin
-REDUX_PAL, exe, 0x80022058, 0x0, src/main.c src/gametime.c src/instantDragons.c, IGT.bin
-REDUX_PAL, exe, 0x8006bcb4, 0x0, src/misc_functions.c src/check_region.c src/igt_menu.c, IL.bin
-REDUX_PAL, exe, 0x800343b4, 0x0, src/menu_hooks.c, Misc.bin
